@@ -1,0 +1,409 @@
+```yaml
+characters:
+  main_characters:
+    - name: リオン・フォン・エルドリッジ
+      name_reading: Lion von Eldridge
+      age: 42歳（見た目は15歳）
+      gender: 男性
+      race: 竜人（長命種）
+      appearance:
+        hair: 銀色の長髪（地面まで届く長さ）
+        eyes: 右目が赤、左目が紫のオッドアイ
+        features:
+          - 長く尖った耳（エルフ様）
+          - 2本の角
+          - 翼（背中）
+          - 尻尾
+          - 蛇のように裂けた舌
+        clothing: 女性用制服（父の嫌がらせ）、または双竜教の司祭ローブ（青色、金糸の刺繍）
+      personality:
+        - 穏やか
+        - 優しい
+        - 責任感が強い
+        - 謙虚
+        - 実戦経験豊富で冷静
+      background:
+        - 伯爵家の養子
+        - 双竜教の司祭（20歳で資格取得、8年間修行）
+        - 従軍経験あり（20年前の北方紛争）
+        - 魔物討伐・犯罪者討伐作戦、双竜教と正教会の任務に従事
+        - 村で薬草師として4年間隠居生活
+      abilities:
+        - 薬草学の専門知識
+        - 錬金術（物質強化）
+        - 剣術（実戦レベル）
+        - 魔法（圧力操作）
+        - 竜人の身体能力（素手で剣を掴める）
+      occupation: 薬学科の学生、薬草師
+      residence: 王都の邸宅（聖教会と王家からの褒章）
+      relationships:
+        - リーシェラに惹かれている（複雑な感情）
+        - エリシアから推薦を受けた
+        - 村の人々から慕われている
+
+    - name: リーシェラ・フォン・ガレリア
+      name_reading: Leishera von Galeria
+      age: 17歳
+      gender: 女性
+      race: フィリア族（蛇人）
+      title: ガレリア王国第三王女（王位継承権あり）
+      appearance:
+        hair: 長い黒髪
+        eyes: 黄色（縦長の瞳孔）
+        features:
+          - 長く尖った耳（エルフ様）
+          - 太く長い蛇の尻尾（3メートル以上、青色の鱗）
+          - 人間と同じ二本の足＋蛇の尻尾
+          - 二股に分かれた舌（蛇の舌）
+          - 鋭い牙
+        skin: 白い肌
+        figure: 整った顔立ち、美しい、妖艶な魅力、胸が大きい
+      personality:
+        - 聡明で頭が良い
+        - 冷静で観察眼が鋭い
+        - 人を試すような性格
+        - 退屈を嫌う
+        - 冷酷
+      background:
+        - 留学生として王立アカデミアに在籍
+        - 政略結婚の婚約者がいる（40歳の貴族）
+        - 王女として自由な恋愛ができない環境
+      abilities:
+        - ダンス（完璧なレベル）
+        - 社交術
+        - 政治的洞察力
+      relationships:
+        - 婚約者がいる（会ったことはない）
+
+    - name: エリシア
+      age: 20代前半
+      gender: 女性
+      race: 人間
+      title: 上位聖女（元下級聖女）
+      appearance:
+        hair: 金色
+        eyes: 青
+        clothing: 白い聖女の礼服（上位聖女の金の刺繍入り）
+      personality:
+        - 真面目で献身的
+        - 優しい
+        - 責任感が強い
+      background:
+        - 下級聖女として各地を回っていた
+        - リオンの助けで食中毒問題を解決
+        - 上位聖女に昇進
+        - リオンを王立アカデミアに推薦
+      abilities:
+        - 治癒魔法
+        - 薬草学（リオンから学んだ）
+      occupation: 王立アカデミア薬学科の講師
+      relationships:
+        - リオンを尊敬し感謝している
+        - リオンを女性だと勘違いしていた
+
+    - name: エレナ
+      age: 16歳
+      gender: 女性
+      race: エルフ
+      appearance:
+        hair: 金髪
+        features: 長い耳
+      personality:
+        - 明るい
+        - 親切
+        - 真面目に勉強したい
+      occupation: 王立アカデミア一年生
+      relationships:
+        - リオンの友人
+        - リオンに親切に接する
+
+    - name: ローラ
+      title: 双竜教司教
+      age: 不明（長命種、見た目は20代前半で止まっている）
+      gender: 女性
+      race: 不明（長命種）
+      appearance:
+        hair: 赤髪（後ろでまとめている）
+        clothing: 豪華な双竜教のローブ
+        features: 威厳のある姿
+      personality:
+        - 謎めいた存在
+        - ユーモアのセンスがある
+        - からかい好き
+        - 厳格だが面倒見が良い
+        - 問題に対して迅速に対処する
+      background:
+        - リオンの修行時代の恩師
+        - 双竜教の高位聖職者
+        - リオンが王都に住んでいることを把握している
+      relationships:
+        - リオンの師匠的存在
+        - リオンの女装姿を見たがっている
+        - リオンのことを以前から「女性の姿が似合う」と評価
+      occupation: 双竜教司教
+      residence: 王都北側の双竜教教会
+      note:
+        - リオンに対して保護者的な態度
+        - 執務室は片付きすぎているほど整理されている    
+
+  supporting_characters:
+    village_people:
+      - name: トマス
+        role: 村一番の農夫
+        appearance:
+          - 日焼けした顔
+          - 深い皺
+        personality: 屈託がない、明るい
+
+      - name: マリア
+        role: 村の仕立て屋
+        personality: 親切
+        note: リオンのために特別な服を作ってくれる
+
+      - name: ハロルド
+        role: 村長
+        family:
+          - 妻セラ
+          - 娘エマ（7歳）
+
+      - name: セラ
+        role: 村長夫人
+        note: リオンに治療してもらった
+
+      - name: エマ
+        age: 7歳
+        role: 村長の娘
+        personality: 明るい、リオンを慕っている
+
+    academy_staff:
+      - name: クラウス教授
+        age: 中年
+        gender: 男性
+        occupation: 一年生の魔法理論と世界史担当
+
+      - name: マリアンヌ教授
+        age: 中年
+        gender: 女性
+        appearance:
+          clothing: 薄紫色のドレス
+        personality: 優雅、品がある
+        occupation: 社交マナーとダンス担当
+
+      - name: ガルシア教官
+        age: 中年
+        gender: 男性
+        appearance: 厳格な顔つき
+        occupation: 騎士科主任教官
+        personality: 厳しいが公正
+
+    household_staff:
+      - name: セバスチャン
+        age: 初老
+        gender: 男性
+        role: 伯爵家の執事
+        appearance:
+          clothing: 黒い礼服
+        personality: 厳格、リオンに対して冷たい
+
+      - name: アンナ
+        age: 中年
+        gender: 女性
+        role: 邸宅の家政婦長
+        personality: 丁寧、有能
+
+    antagonists:
+      - name: セシリア・ローズウェル
+        title: 子爵家の令嬢
+        age: 学生
+        gender: 女性
+        appearance:
+          hair: 茶色の縦ロール
+        personality: 高慢、リオンに敵対的
+        note: リーシェラに近づくリオンを嫌っている
+
+      - name: マーカス
+        age: 学生
+        gender: 男性
+        occupation: 騎士科
+        appearance:
+          hair: 金髪
+          build: 筋肉質
+        note: セシリアの幼馴染、リオンに決闘を挑む
+
+      - name: レイン
+        age: 学生
+        gender: 男性
+        occupation: 騎士科
+        appearance:
+          hair: 茶色
+          build: 小柄
+        specialty: 速さ
+        note: セシリアの幼馴染、リオンに決闘を挑む
+
+      - name: ギルバート
+        age: 学生
+        gender: 男性
+        occupation: 騎士科
+        appearance:
+          hair: 黒髪
+          build: がっしり
+        note: セシリアの幼馴染、決闘でルール違反（真剣使用）、停学処分
+
+      - name: ヴィクトール・デ・ランベール
+        title: 辺境伯家の長男
+        age: 三年生
+        gender: 男性
+        appearance:
+          hair: 金髪（後ろに撫でつけ）
+          height: 背が高い
+          features: 整った顔立ち
+        personality: 高慢、貴族意識が強い
+        note: リオンを脅迫するが失敗
+
+      - name: ルシアン・フォン・クラウス
+        title: 侯爵家の次男
+        age: 三年生
+        gender: 男性
+        note: ヴィクトールの仲間
+
+      - name: フェルディナント・デ・モーリッツ
+        title: 伯爵家の長男
+        age: 三年生
+        gender: 男性
+        note: ヴィクトールの仲間
+
+    other_students:
+      - name: クリスティーナ
+        age: 学生
+        gender: 女性
+        appearance:
+          hair: 金髪
+        title: 男爵家の令嬢
+        note: エドワードに片思いだが、彼には婚約者がいて絶望している
+
+      - name: ヴィクター・ハートウェル
+        title: 侯爵家の次男
+        age: 学生
+        gender: 男性
+        appearance:
+          hair: 栗色
+        note: 親が決めた婚約を拒否している
+
+      - name: エドワード
+        age: 学生
+        gender: 男性
+        note: クリスティーナが想いを寄せる相手、公爵家令嬢と婚約している
+
+institutions:
+  - name: 王立アカデミア
+    type: 教育機関
+    location: 王都中心部
+    description: 貴族や優秀な平民が通う国最高峰の教育機関
+    features:
+      - 白い大理石造りの壮麗な校舎
+      - 魔法、学問、武術などの英才教育
+      - 貴族のパートナー探しの場でもある
+      - 授業に出ない生徒も多い（社交活動重視）
+
+  - name: 双竜教
+    type: 宗教組織
+    symbol: 二頭の竜が絡み合う紋章
+    features:
+      - 厳しい修行で有名
+      - 司祭資格を授与
+      - 従軍司祭を派遣
+      - 修道院がある
+
+  - name: 聖教会
+    type: 宗教組織
+    power: 王家と並ぶ権力
+    hierarchy:
+      - 上位聖女（金の刺繍）
+      - 下級聖女
+    features:
+      - 治癒魔法
+      - 各地への薬の配布
+      - 政治的影響力
+
+  - name: ガレリア王国
+    type: 国家
+    ruler: フィリア族
+    royal_family:
+      - 国王
+      - 第三王女リーシェラ
+
+locations:
+  - name: 村（名称不明）
+    type: 農村
+    features:
+      - 伯爵領の一部
+      - リオンが17年間暮らした
+      - 薬草畑がある
+      - 温かい住民
+
+  - name: 王都
+    features:
+      - 石造りの高い城壁
+      - 整備された石畳の道
+      - 豪華な建物が立ち並ぶ
+      - 貴族街がある
+
+  - name: リオンの邸宅
+    location: 王都貴族街
+    type: 三階建て
+    features:
+      - 広い庭園（薔薇、噴水）
+      - 作業部屋（薬草精製用）
+      - 地下貯蔵庫
+      - 使用人が複数
+    origin: 聖教会と王家からの褒章
+
+magic_and_abilities:
+  - name: 圧力操作魔法
+    user: リオン
+    effects:
+      - 高圧状態の生成（薬草成分抽出）
+      - 減圧状態の生成（濃縮、乾燥）
+    activation: 指を鳴らす
+
+  - name: 錬金術
+    user: リオン
+    effects:
+      - 物質強化（木刀を強化して真剣を受け止める）
+      - 糖蜜合成（薬草から糖分を抽出）
+
+  - name: 治癒魔法
+    user: エリシア（聖女）
+    limitation: 下級聖女は一人ずつしか癒せない
+
+  - name: 竜人の身体能力
+    user: リオン
+    effects:
+      - 素手で剣を掴んでも切れない
+      - 高い身体能力
+      - 長命（老化が遅い）
+
+items_and_products:
+  - name: 解熱剤錠剤
+    creator: リオン
+    ingredients: エルダーフラワー、ウィローバーク、フィーバーフュー、糖蜜
+    distribution: 聖教会を通じて各地に配布
+
+  - name: 解毒剤
+    creator: リオン
+    ingredients: 活性炭、ミルクシスル、ダンデライオン、アーティチョーク
+    purpose: カビ毒による中毒症状の治療
+
+  - name: 各種薬草茶
+    creator: リオン
+    varieties:
+      - ローズヒップ＋カモミール（疲労回復）
+      - カビ毒排出用（日常的に飲む予防薬）
+
+themes:
+  - 年齢差の恋愛（42歳と17歳）
+  - 異形者への差別と受容
+  - 身分制度と政略結婚
+  - 過去の経験と現在の生活
+  - 友情と恋愛の境界
+```

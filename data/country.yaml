@@ -1,0 +1,333 @@
+kingdom:
+  name: ユーテリア王国
+  name_en: Kingdom of Euteria
+  
+  basic_info:
+    capital: 白銀の都エルテリウム
+    capital_description: 白い大理石で造られた建物が立ち並ぶ美しい都市
+    population: 約250万人
+    territory: 中規模王国（東西約300km、南北約400km）
+    government_type: 立憲君主制
+    currency: 
+      name: エーテル貨
+      units:
+        - 金貨（大額取引用）
+        - 銀貨（日常取引用）
+        - 銅貨（小額取引用）
+    official_language: 共通語
+    founding: 約500年前
+    
+  geography:
+    location: 大陸中西部
+    terrain:
+      north: 
+        name: 雪峰山脈
+        description: 万年雪を頂く険しい山々、魔物の生息地
+        climate: 寒冷
+      central:
+        name: 肥沃な平原
+        description: 王都を含む農業地帯、多くの村が点在
+        climate: 温暖
+        features:
+          - 豊かな農地
+          - 森林地帯
+          - 河川による灌漑
+      south:
+        name: 温暖な丘陵地帯
+        description: ぶどう畑や果樹園が広がる
+        climate: 温暖湿潤
+      west:
+        name: 紺碧海沿岸
+        description: 港湾都市と漁業が盛ん
+        climate: 海洋性温暖
+    climate: 四季が明瞭な温暖気候
+    
+  major_cities:
+    - name: エルテリウム（王都）
+      population: 約50万人
+      description: 王城、王立アカデミア、聖教会大聖堂のある政治・文化の中心
+      features:
+        - 石造りの高い城壁
+        - 整備された石畳の道
+        - 貴族街
+        - 商業地区
+        - 学術地区
+        
+    - name: シルヴァポート
+      population: 約15万人
+      location: 西部沿岸
+      description: 最大の港湾都市、海外貿易の拠点
+      
+    - name: ノーザンフォート
+      population: 約8万人
+      location: 北部山脈の麓
+      description: 軍事要塞都市、魔物討伐の前線基地
+      
+    - name: メドウズヴィル
+      population: 約12万人
+      location: 中部平原
+      description: 農業と商業の中心都市
+      
+  political_structure:
+    monarch:
+      current_ruler: エドワルド三世
+      royal_family: アルトリア王家
+      succession: 長子相続制
+      
+    nobility:
+      ranks:
+        - 公爵（Duke）
+        - 侯爵（Marquis）
+        - 伯爵（Earl）
+        - 子爵（Viscount）
+        - 男爵（Baron）
+      note: 爵位は世襲制だが、功績により新規授与もある
+      
+    parliament:
+      upper_house: 貴族院（貴族で構成）
+      lower_house: 民衆院（選挙で選ばれた代表）
+      power: 王の権限を制限し、法案を審議
+      
+  military:
+    structure:
+      royal_guard: 王室直属の精鋭部隊
+      kingdom_army: 常設軍約3万人
+      regional_forces: 各領主が管理する地方軍
+      knight_orders: 複数の騎士団が存在
+      
+    notable_conflicts:
+      - name: 北方紛争
+        period: 20年前
+        description: 北方の魔物の大規模侵攻を撃退
+        note: リオンが従軍司祭として参加
+        
+  religious_institutions:
+    main_religion:
+      name: 双竜教
+      symbol: 二頭の竜が絡み合う紋章
+      headquarters: 王都北側の双竜教教会
+      influence: 民衆の間で広く信仰される
+      features:
+        - 厳しい修行で知られる
+        - 司祭資格の授与
+        - 従軍司祭の派遣
+        - 各地に修道院
+        
+    secondary_religion:
+      name: 聖教会
+      headquarters: 王都中央の大聖堂
+      influence: 王家と並ぶ権力を持つ
+      hierarchy:
+        - 教皇
+        - 枢機卿
+        - 司教
+        - 上位聖女（金の刺繍）
+        - 下級聖女
+        - 司祭
+      services:
+        - 治癒魔法
+        - 薬の製造と配布
+        - 貧民救済
+        - 教育事業
+        
+  education:
+    royal_academy:
+      name: 王立アカデミア
+      location: 王都中心部
+      type: 総合教育機関
+      architecture: 白い大理石造りの壮麗な校舎
+      student_body:
+        - 貴族の子弟
+        - 優秀な平民
+        - 留学生（他国の王族・貴族）
+      departments:
+        - 魔法科
+        - 騎士科
+        - 薬学科
+        - 学術科
+        - 社交マナー科
+      purpose:
+        - 英才教育
+        - 社交界デビューの準備
+        - 政略的パートナー探し
+      note: 授業に出ない生徒も多い（社交活動重視）
+      
+  economy:
+    primary_industries:
+      agriculture:
+        - 穀物（小麦、大麦）
+        - 野菜
+        - 果樹
+        - 畜産
+      trade:
+        - 海外貿易（シルヴァポート経由）
+        - 国内商業網
+      manufacturing:
+        - 織物
+        - 金属加工
+        - 薬草製品
+      services:
+        - 金融
+        - 運輸
+        
+    trade_partners:
+      - ガレリア王国（フィリア族の国）
+      - 北方諸国
+      - 東方帝国
+      
+  social_structure:
+    classes:
+      - name: 王族・上級貴族
+        description: 政治的実権を持つ
+        privileges: 広大な領地、高い社会的地位
+        
+      - name: 中下級貴族
+        description: 地方統治を担う
+        privileges: 領地、爵位
+        
+      - name: 富裕市民
+        description: 商人、学者、高級職人
+        privileges: 経済力、一定の発言権
+        
+      - name: 平民
+        description: 農民、職人、一般労働者
+        privileges: 基本的人権、民衆院への投票権
+        
+      - name: 異形種族
+        description: 竜人、フィリア族、エルフ、獣人など
+        status: 法的には平等だが、社会的偏見が存在
+        note: 能力次第で高位に就ける
+        
+  notable_families:
+    - name: アルトリア王家
+      status: 王族
+      description: 500年続く王朝
+      
+    - name: エルドリッジ伯爵家
+      status: 伯爵
+      note: リオンの養父の家
+      territory: 中部平原の一部
+      characteristics: 保守的、異形種族への偏見
+      
+    - name: モンフォール侯爵家
+      status: 侯爵
+      head: グレゴワール・ド・モンフォール
+      influence: 政治的に強い影響力
+      note: リーシェラの婚約者の家
+      
+    - name: ローズウェル子爵家
+      status: 子爵
+      member: セシリア（令嬢）
+      
+  magic_and_technology:
+    magic_system:
+      common_types:
+        - 治癒魔法（聖教会）
+        - 戦闘魔法
+        - 生活魔法
+        - 錬金術
+      regulation: 王立魔法協会が管理
+      education: 王立アカデミアで教育
+      
+    technology_level:
+      - 中世ヨーロッパ相当
+      - 魔法により一部で高度な技術
+      - 薬草学と錬金術が発達
+      - 印刷技術あり
+      
+  healthcare:
+    systems:
+      - 聖教会の治癒魔法
+      - 薬草師による民間治療
+      - 都市部の医療施設
+    issues:
+      - 地方では医療が不足
+      - カビ毒による食中毒の多発
+      - 疫病の定期的な発生
+    improvements:
+      - リオンの薬による改善
+      - 食料保管方法の普及
+      - 聖教会との協力体制
+      
+  current_issues:
+    domestic:
+      - 貴族間の派閥争い
+      - 異形種族への差別
+      - 地方と都市部の格差
+      - 魔物の脅威
+      
+    international:
+      - ガレリア王国との政略結婚
+      - 北方諸国との緊張関係
+      - 海外貿易の競争
+      
+  cultural_aspects:
+    social_events:
+      - 王室主催の舞踏会
+      - 王立アカデミアの夜会練習
+      - 季節の祭典
+      - 騎士の叙任式
+      
+    values:
+      - 家格と血統の重視
+      - 騎士道精神
+      - 宗教的敬虔さ
+      - 社交的洗練
+      
+    customs:
+      - 政略結婚の慣習
+      - 社交界でのパートナー探し
+      - 決闘による名誉の回復
+      - 貴族の夜会文化
+      
+  notable_locations:
+    within_capital:
+      - name: 王城
+        description: 王家の居城、政治の中心
+        
+      - name: 王立アカデミア
+        description: 白い大理石造りの教育機関
+        
+      - name: 聖教会大聖堂
+        description: 巨大な尖塔を持つ宗教施設
+        
+      - name: 双竜教教会
+        description: 王都北側の教会、修道院併設
+        
+      - name: 貴族街
+        description: 豪華な邸宅が立ち並ぶ地区
+        note: リオンの邸宅もここにある
+        
+      - name: 商業地区
+        description: 店舗や工房が集まる賑やかな地区
+        
+      - name: 訓練場
+        description: 騎士科の実技訓練施設
+        
+    outside_capital:
+      - name: リオンが住んでいた村
+        location: 伯爵領内
+        population: 約300人
+        description: 農村、温かい住民
+        
+  historical_notes:
+    - 建国から500年の歴史
+    - 過去に数度の魔物との大規模戦争
+    - 近年は比較的平和
+    - 双竜教と聖教会の共存体制
+    - 異形種族の社会進出が進みつつある
+    
+  relations_with_other_nations:
+    - name: ガレリア王国
+      race: フィリア族（蛇人）
+      relation: 同盟関係、政略結婚による強化
+      distance: 南東約800km
+      note: リーシェラの母国
+      
+    - name: 北方諸国
+      relation: 緊張関係、20年前に紛争
+      note: 魔物の脅威が続く
+      
+    - name: 東方帝国
+      relation: 貿易関係
+      note: 魔法技術で先進的
